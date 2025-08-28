@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_5_VARIABLES"/>
+        <attribute name="authors" value="anago"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 04:54:30 p. m."/>
+        <attribute name="created" value="YW5hZ287U0FMQVMtR09NRVo7MjAyNS0wOC0yODswMzo1NToxMyBwLiBtLjsyNzk3"/>
+        <attribute name="edited" value="YW5hZ287U0FMQVMtR09NRVo7MjAyNS0wOC0yODswNDo1NDozMCBwLiBtLjsxOzI5MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;CARLOS ALEXANDER SALAS GOMEZ&quot;"/>
+            <assign variable="edad" expression="17"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
